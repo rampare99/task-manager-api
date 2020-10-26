@@ -69,7 +69,7 @@ JWT_SECRET=yoursecret // your JWT secret for creating tokens, don't share this
 MONGODB_URL=yoururl // your MongoDB database url
 `
 
-Please do the same thing for /config/test.env. But DO NOT CHANGE THE `DB_NAME`, only `USER` and `PASSWORD`.
+Please do the same thing for /config/test.env.
 
 After that you should be able to run `npm install` to install all the dependencies.
 
