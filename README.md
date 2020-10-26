@@ -37,7 +37,7 @@ User Entity:
   - Name: string
   - Email: boolean
   - Password: string
-  - Age: mumber
+  - Age: number
   - Avatar: image
   
   ## Tasks
@@ -57,15 +57,20 @@ Task Entity:
   - Finished: boolean
 
 
-
-
 ## Instructions to setup dev environment
 Create "dev.env" file in /config
 
 You will need to set 3 fields in the file:
+
 `
 SENDGRID_API_KEY=yourkey // your SendGrid API key for sending e-mails
+`
+
+`
 JWT_SECRET=yoursecret // your JWT secret for creating tokens, don't share this
+`
+
+`
 MONGODB_URL=yoururl // your MongoDB database url
 `
 
